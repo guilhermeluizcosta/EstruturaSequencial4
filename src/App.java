@@ -6,7 +6,7 @@ public class App {
         double notas,contador=0,soma = 0,media;
         System.out.println("Digite as quatro notas: ");
         while(contador<4){
-         notas= entrada.nextInt();
+         notas= entrada.nextDouble();
          soma= soma + notas;
          contador++;
         }
